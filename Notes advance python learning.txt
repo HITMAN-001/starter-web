@@ -1,5 +1,0 @@
-what I learned from python tutorial advanced and working with tkinter:
-1. type hinting for better coding done as ==> def func(parm1: int, pram2: float) -> int
-2.list comprehension
-3.packing and unpacking args *args and **kwargs
-3. I am doing this change for git to track the file change.
