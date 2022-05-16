@@ -1,0 +1,65 @@
+WORK IN PROGRESS FOR CLIENT INTERVIEW
+
+1. Enumerate its is used to convert list into enumerated list[(1,value),(2,value)]
+
+2. playing with tuples --> w3schools
+Question --> tell me attributes of tuple --> indexed, immutable, allows duplicates, 
+	>Some attributes of datasets in python:
+		List is a collection which is ordered and changeable. Allows duplicate members.
+		Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+		Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+		Dictionary is a collection which is ordered** and changeable. No duplicate members
+	> some methods of tuple --> count(5)--> return how many times 5 occurs in tuple
+								index(4)--> Searches the tuple for a specified value and returns the position of where it was found
+	> some good links -->
+			http://www.compciv.org/guides/python/fundamentals/tuples-immutable/#why-tuples-why-immutability
+			
+3. playing with set -->w3schools
+Question --> tell me attributes of set --> unordered, unchangeable*, and unindexed
+	> some methods of set --> add() --> adds an element to set --> why does tuple have this attribute and how does it maintain integrity of unchangeable*
+							 copy()--> this gives a copy of set and stores in different memory address.
+							 discard()
+	>some good links -->
+		https://www.programiz.com/python-programming/methods/set/copy
+4.playing with string --> its immutable and variable length
+	mehods associated -->	str.replace()
+							"#".join(iterable list/set/tuple)
+							str.split(";")
+							str.strip()
+							str.isalnum()
+							str.isdigit()
+							str.isalpha()
+							str.index()
+							str.islower()
+							str.isuppper()
+							str.rpartition("banana") --> partition string on last occurence
+							
+
+5. playing with lists --> they are mutable as they have function pop now the memory allocation is only for one
+6. python 3.0 vs python 2.0 -> some changes in functions, div operator change sourse geeksforgeeks
+7.python packages --> https://www.youtube.com/watch?v=urE5MuYd-YM
+					  https://docs.python-guide.org/writing/structure/
+			some common mistakes of python packaging -->circular dependencies -->hack with infunction imports
+														Hidden coupling --> if changes in the code break too many testcases then couling is very high
+														Heavy usage of global stage/context
+														spageeti code --> loops and lot of nested code
+														raviolli code  --> 100's of liitle peices of logic
+
+8.Why python is slow -->Dynamic typing --> no variable has predefined datatype
+						Memory Management --> cahching and interpreting is slower than interpreting the byte code
+						
+9.Context Manager --> it manages setup and teardown of multiple resources
+						https://www.youtube.com/watch?v=-aKFBoZpiqA
+						https://docs.python-guide.org/writing/structure/
+
+10.A good document stating how to test your code.
+	https://docs.python-guide.org/writing/tests/
+	
+11.palying with dictionaries
+	some python stuff --> https://youtu.be/Wkqzl3S2RSk
+
+12. Decorators --> who calls the internal function in side the wrapper function which basically is used as decorator?
+
+13. Handling JSON data with python --> Corey Schafer
+
+14. Map() filter(takes function) reduce() enumerate() 
